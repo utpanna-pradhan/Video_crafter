@@ -3,7 +3,7 @@
     --white:#ffffff;
 }
 *{
-    font-family: "DM Sans", sans-serif;
+    font-family: Montserrat;
    
 }
 html{
@@ -21,7 +21,51 @@ html , body{
 nav li{
     list-style-type: none;
 }
-
+/*---------------------------------------contact section--------------------------------------*/
+.contact-section h1 {
+    font-size: 2.25rem;
+    font-weight: 700;
+    line-height: 44px;
+    letter-spacing: -0.01em;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #101828;
+}
+.contact-section p {
+   
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+    color: #667085;
+    margin-bottom: 64px;
+}
+.form-group input, .form-group textarea {
+   
+    padding: 16px 12px;
+    font-size: 1rem;
+    border: 1px solid #d0d5dd;
+    border-radius: 8px;
+    outline: none;
+    transition: 0.3s ease;
+    box-shadow: 0px 1px 2px 0px #1018280d;
+    width: 100%;
+}
+.send_msg_btn{
+    width: 100%;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: center;
+    padding: 15px;
+    background-color: #864af9;
+    margin-top: 12px;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
 /*--------------------------------footer------------------------------------*/
 .footer{
     position: sticky;
